@@ -1,0 +1,50 @@
+<!--pages/decorate/decorate.wxml-->
+<view>
+ <view class='top'>
+   <view class='item1'><image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/89e90ea232aeb39a813a5a9d3d5a6834738711a0a56b-JOHLj2_fw658'></image></view>
+   <view class='item2'><view class='word'>
+   <text>方寸之间</text>
+   <text>&hearts;</text>
+   <text>在繁闹都市中</text>
+   <text>找寻静谧</text>
+   <text>方寸之间需要</text>
+   <text>充满平衡的色彩</text>
+   <text>置于偏隅一角</text>
+   <text>不彰自显</text>
+   </view></view>
+   <view class='item3'><image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/edcf5f4d7407e609e4532f310ec4aa92c92597b9a47b-kwRnLe_fw658'></image></view>
+ </view>
+ <view class='list'>
+   <view class='listone'>
+   <image mode="aspectFill" lazy-load="true"         src='http://img.hb.aicdn.com/35aeaa439940a05a7d12f236b99cbaebaf92a68e2d7a-rFWY1k_fw658'></image></view>
+   <view class='listtwo'>
+     <view class='line'><text>living room</text><text class='floor'>客厅</text></view>
+     <view  class='line'>
+     <text>现代简约风格的家居设计以</text>
+     <text>简洁明快为主要特点，同时</text>
+     <text>张扬个性，色彩和造型运用</text>
+     <text>很大胆。</text></view>
+      <view><text>东南亚套装</text><text class='price'>￥345</text></view>
+   </view>
+   <view class='listthree'>
+      <view class='line'><text>living room</text><text class='floor'>卧室</text></view>
+     <view  class='line'>
+     <text>现代简约风格的家居设计以</text>
+     <text>简洁明快为主要特点，同时</text>
+     <text>张扬个性，色彩和造型运用</text>
+     <text>很大胆。</text></view>
+      <view><text>东南亚套装</text><text class='price'>￥395</text></view>
+   </view>
+   <view class='listfour'><image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/8f2c451227fa9c31ab934a2d408f73ea4eb4338f2897-5Hx52c_fw658'></image></view>
+   <view class='listfive'><image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/f14016db34c02721b76d0f2f52ed5fc5f1ff82532dec-vt7mvD_fw658'></image></view>
+   <view class='listsix'>
+      <view class='line'><text>living room</text><text class='floor'>客厅</text></view>
+     <view  class='line'>
+     <text>现代简约风格的家居设计以</text>
+     <text>简洁明快为主要特点，同时</text>
+     <text>张扬个性，色彩和造型运用</text>
+     <text>很大胆。</text></view>
+      <view><text>东南亚套装</text><text class='price'>￥400</text></view>
+   </view>
+ </view>
+</view>

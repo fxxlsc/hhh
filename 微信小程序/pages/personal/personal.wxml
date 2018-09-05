@@ -1,0 +1,29 @@
+<!--pages/personal/personal.wxml-->
+<view>
+
+<view class='person'>
+  <view class='item1'>
+      <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+      <text class="nickname">{{userInfo.nickName}}</text>
+   </view>
+   <view class='item2'><text class='myorder'>我的订单</text></view>
+</view>
+
+
+<view>
+ <block wx:for='{{newimages}}'>
+   <view class='item3'>
+   <view class='item3-small'>
+      <image src='{{newimages[index].src}}'></image>
+   </view>
+  <view class='item3-big'>
+     <text class='word'>￥{{newimages[index].name}}<text class='word' style='display:block;'>X{{newimages[index].data}}</text></text>
+   <text style='display:block;font-size:26rpx'>鲜花装点:给您每一份爱，每一份喜欢，让家的感觉更浓郁.</text>
+  </view>
+
+   </view>
+ </block>
+
+</view>
+</view>
+

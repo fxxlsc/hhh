@@ -1,0 +1,24 @@
+<!--pages/imgdetail/imgdetail.wxml-->
+<view>
+<view class='newgoods'>
+   <scroll-view class="box" scroll-x="true" >
+      <block wx:for="{{rightimgs}}" wx:key="id">
+         <view class="box-item" >
+         <image src='{{item.src}}' mode="aspectFill" ></image></view>
+      </block>
+  </scroll-view>
+</view>
+<view class='goodsitems'>
+ <view class='item1'><text class='icon'></text><text>{{connew[0].discript}}</text></view>
+ <view class='item2'> 
+ <text>{{connew[0].price}}</text>
+ <text bindtap="shopcar">立即抢购</text>
+ </view>
+</view>
+<view class='otherlist'> 
+<view class='item'>点亮你的生活</view>
+<view class='item1'><image src='{{connew[0].src}}' mode="widthFix"></image></view>
+<view class='item2'><image src='{{connew[0].src1}}' mode="widthFix"></image></view>
+<view class='item3'><image src='{{connew[0].src2}}' mode="widthFix"></image></view>
+</view>
+</view>

@@ -1,0 +1,43 @@
+/* pages/about/about.wxss */
+.content{
+  display: flex;
+  width: 100%;
+  height:1600rpx;
+  /* background: #666; */
+  flex-flow: column wrap;
+  align-items: center;
+}
+.content view:nth-child(1){
+width:98%;
+height:400rpx;
+}
+.content view:nth-child(1) image{
+  width: 100%;
+  height: 100%;
+}
+.content view:nth-child(2){
+font-family: 楷体, 楷体_GB2312, SimKai;
+width:98%;
+height:100rpx;
+line-height:100rpx;
+color:  #d5a6bd;
+font-size:40rpx;
+}
+.content view:nth-child(3){
+width:98%;
+height:1000rpx;
+}
+.page-body{
+  width: 100% !important;
+}
+.page-section-gap{
+  box-sizing: border-box;
+   width: 100% !important;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+}
+.btn-area{
+  margin-top:340rpx;
+}

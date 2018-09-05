@@ -1,0 +1,41 @@
+<!--pages/about/about.wxml-->
+<view class='content'>
+  <view>
+   <swiper indicator-dots="{{indicatorDots}}" style='height:400rpx'
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}"  mode="widthFix" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+  <view>
+   <text>和明星一起了解花，你get到了吗</text>
+  </view>
+  <view>
+  <view class="page-body">
+  <view class="page-section page-section-gap">
+    <map
+      id="myMap"
+      style="width:100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    ></map>
+  </view>
+  <view class="btn-area">
+    <button bindtap="mapViewTap"    class="page-body-button" >获取我司位置</button>
+    <button bindtap="moveToLocation" class="page-body-button" >移动位置</button>
+    <button bindtap="translateMarker" class="page-body-button" >移动标注</button>
+    <button bindtap="includePoints" class="page-body-button" >缩放视野展示所有经纬度</button>
+  </view>
+</view>
+  
+  </view>
+  <view></view>
+  <view></view>
+  <view></view>
+</view>

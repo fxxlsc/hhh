@@ -1,0 +1,33 @@
+<!--pages/buy/buy.wxml-->
+<view class='shopcar'>
+ <view class='item'>
+  <view class='ac_name'>
+  <text>收货人：{{address[0].name}}</text>
+  <text>{{address[0].phnoe}}</text>
+  </view>
+  <view class='ac_address'>
+  <text>收货地址：{{address[0].address}}</text>
+  </view>
+ </view>
+ <view class='item1'></view>
+ <view class='item2'>
+  <image src='{{messge[0].src}}' mode="aspectFill"></image>
+ </view>
+ <view class='item3'>
+ <text style='color:#d5a6bd'>鲜花速递</text>
+  <text style='color:#d5a6bd'>￥{{messge[0].name}}</text>
+  <text style='display:block;font-size:28rpx'>鲜花装点:给您每一份爱，每一份喜欢，让家的感觉更浓郁.</text>
+ </view>
+ <view class='item4'>
+ <text>购买数量</text>
+ <view class='stepper'>
+  <text class='{{minusStatus}}' type='number'  bindtap='bindMinus'>-</text>
+  <input bindinput='bindManual' value='{{num}}'></input>
+  <text bindtap='bindPlus'>+</text>
+ </view>
+ </view>
+ <view class='item5'> <text>此商品性质不支持7天退货</text> </view>
+ <view class='item6'><text>共<text>{{num}}</text>件商品</text>小计<text class='total'>￥{{num*messge[0].name}}</text></view>
+ <view class='item7'><text>收货地址：</text><text>{{address[0].address}}</text></view>
+ <view class='item8'><text>合计金额:<text class='price1'>￥{{num*messge[0].name}}</text></text><text  data-price='{{num*messge[0].name}}' class='total1' bindtap='postorder'>提交订单</text></view>
+</view>

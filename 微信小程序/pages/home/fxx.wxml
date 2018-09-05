@@ -1,0 +1,41 @@
+<view>
+<view class='swiper'>
+     <view class='shadow'></view>
+     <view class='shadow2'>
+        <view class='tx1'>
+          <text>wonderful lifestyle</text>
+        </view>
+        <view class='tx2'>
+          <text>花点时间 装点生活</text>
+        </view>
+        <view class='tx3'>
+        <text>为家添一抹色彩</text>
+        </view>
+     </view>
+   </view>
+<view class='box'>
+  <view><view><view></view></view></view>
+  <view><view><view></view></view></view>
+  <view><view><view></view></view></view>
+</view>
+<view class='flower-item'>
+  <view class='item1'>
+  <view><text>新品上市</text><text>new arrive</text></view>
+  <image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/b918c187da76cec9e7e02e774ec14d9ca4f0c2395be9-11DWVn_fw658'></image></view>
+  <view class='item2'>
+  <view><text>399元/束</text></view>
+  <image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/b8a10ae58bde8cd96c0325cf8a23037081caf8db4243-TtfqjO_fw658'></image></view>
+  <view class='item3'>
+  <view><text>399元/束</text></view>
+  <image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/f05ede55525b82adce89ba2cac77616aab853cee6092-jnMIQm_fw658'></image></view>
+  <view class='item4'>
+  <view><text>399元/束</text></view>
+  <image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/10c29a2b093dda0e58e53b1c233b111cd0c2396c3e96-zvnbuR_fw658'></image></view>
+</view>
+<view class='flower-item2'>
+  <view class='item1'><image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/a100c3aa1160d9b9b5b86e2bd5221b286b64e8aa19a2-REZHrv_fw658'></image></view>
+  <view class='item2'><image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/051779cbd939dcc3699a24f12a7248b2d248b210317a-jvqmTV_fw658'></image></view>
+  <view class='item3'><image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/f9cf5c9462270be8b39afa5bb56d3bad9f6916b93493-pTAmVT_fw658'></image></view>
+  <view class='item4'><image mode="aspectFill" lazy-load="true" src='http://img.hb.aicdn.com/7f1f89adfd675b0b27cd5c2988d5cf3b75bb5b6f3c14-2S8y7W_fw658'></image></view>
+</view>
+</view>

@@ -1,0 +1,126 @@
+/* pages/buy/buy.wxss */
+.shopcar{
+    display: grid;
+    grid-template-columns:364rpx 364rpx;
+    grid-template-rows:180rpx 10rpx 300rpx 100rpx 80rpx 80rpx 80rpx 80rpx 160rpx 80rpx;
+    border:10rpx solid #fff;
+    grid-column-gap:5px;
+    font-family: 楷体, 楷体_GB2312, SimKai;
+    font-size:34rpx !important;
+}
+.item{
+   grid-column: 1 / 3;
+   grid-row: 1/2;
+}
+.item1{
+   grid-column: 1 / 3;
+  grid-row: 2/3;
+  /* background:linear-gradient(to right, #f0f0f0,orange,yellow,green,blue,indigo,violet); */
+}
+.item2{
+   grid-column: 1 / 2;
+   grid-row: 3/4;
+}
+.item2 image{
+  width: 100%;
+  height: 100%;
+}
+.item3{
+   grid-column: 2 / 3;
+  grid-row: 3/4;
+}
+.item4{
+   grid-column: 1 / 3;
+   grid-row: 4/5;
+}
+.item4{
+   grid-column: 1 / 3;
+grid-row: 5/6;
+border-bottom: 2rpx solid #efefef
+}
+.item5{
+   grid-column: 1 / 3;
+ grid-row: 7/8;
+ border-bottom: 2rpx solid #efefef;
+}
+.item6{
+   grid-column: 1 / 3;
+ grid-row: 8/9;
+ border-bottom: 2rpx solid #efefef;
+ line-height: 80rpx;
+ 
+}
+.item7{
+   grid-column: 1 / 3;
+  grid-row: 9/10;
+  border-bottom: 2rpx solid #efefef;
+  line-height: 80rpx;
+}
+.item8{
+   grid-column: 1 / 3;
+ grid-row: 10/11;
+ border-bottom: 2rpx solid #efefef;
+ line-height: 80rpx;
+ position: relative;
+}
+.stepper {
+  width:160rpx;
+  height:52rpx;
+  margin:-13rpx 100rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 6rpx;
+  display: inline-block;
+  text-align: right;
+}
+/*加号和减号*/
+.stepper text {
+  float: left;
+  width: 38rpx;
+  line-height: 52rpx;
+  text-align: center;
+}
+/*数值*/
+.stepper input {
+  width: 80rpx;
+  height: 52rpx;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24rpx;
+  border-left: 2rpx solid #ccc;
+  border-right: 2rpx solid #ccc;
+}
+/*普通样式*/
+.stepper .normal {
+  color:black;
+}
+/*禁用样式*/
+.stepper .disable {
+  color: #ccc;
+}
+.ac_name text{
+  display: inline-block;
+  height:60rpx;
+  line-height: 60rpx;
+}
+.total{
+  color: #d5a6bd !important;
+  text-align: right;
+  display: inline-block;
+  width:480rpx;
+}
+.total1{
+ background-color: #d5a6bd !important;
+ width: 200rpx;
+ height: 50rpx;
+ line-height: 50rpx;
+ text-align: center;
+ margin-right: 0rpx;
+ color: white;
+ position: absolute;
+ right: 0rpx;
+ top:14rpx;
+}
+.price1{
+  color: #d5a6bd !important; 
+}

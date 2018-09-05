@@ -1,0 +1,19 @@
+<!--pages/shopitems/shopitems.wxml-->
+    <view class="free-WaterfallFlow">
+      <block>
+        <view class="flex-wrap" hover-class='shdow' wx:for="{{images}}" wx:key='{{item.src}}' 
+        wx:if="{{item.id%2!=''}}">
+          <image mode="widthFix" src="{{item.src}}" data-index="{{item.id}}" bindtap="getindex"></image>
+          <view class='price' >{{item.name}}</view>
+          <view class='love' hover-class='love'><text>购买</text></view>
+        </view>
+      </block>
+      <block>
+        <view class="flex-wrap" wx:for="{{images}}" wx:key='{{item.src}}'
+        wx:if="{{item.id%2==''}}">
+          <image mode="widthFix" src="{{item.src}}" data-index="{{item.id}}" bindtap="getindex"></image>
+           <view class='price'>{{item.name}}</view> 
+           <view class='love' hover-class='love'><text>购买</text></view>
+        </view>
+      </block>
+    </view>

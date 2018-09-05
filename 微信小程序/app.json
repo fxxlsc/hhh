@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home/fxx",
+    "pages/personal/personal",
+    "pages/shopitems/shopitems",
+    "pages/imgdetail/imgdetail",
+    "pages/buy/buy",
+    "pages/decorate/decorate",
+    "pages/index/index",
+      "pages/about/about",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "鲜花装点",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#d5a6bd",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/fxx",
+        "iconPath": "/images/b.png",
+        "selectedIconPath": "/images/a.png"
+      },
+      {
+        "text": "商品分类",
+        "pagePath": "pages/shopitems/shopitems",
+        "iconPath": "/images/cc.png",
+        "selectedIconPath": "/images/c.png"
+      },
+      {
+        "text": "装饰技巧",
+        "pagePath": "pages/decorate/decorate",
+        "iconPath": "/images/b.png",
+        "selectedIconPath": "/images/d.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/personal/personal",
+        "iconPath": "/images/f.png",
+        "selectedIconPath": "/images/dd.png"
+      },
+      {
+        "text": "关于公司",
+        "pagePath": "pages/about/about",
+        "iconPath": "/images/ee.png",
+        "selectedIconPath": "/images/ff.png"
+      }
+    ]
+  }
+}
